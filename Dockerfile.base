@@ -1,0 +1,6 @@
+FROM alpine
+
+RUN mkdir example
+RUN touch example/foo
+
+CMD ["ls", "-lah", "example/"]

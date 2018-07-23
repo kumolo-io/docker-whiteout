@@ -1,0 +1,3 @@
+FROM kumolo/example-base
+
+RUN rm /example/foo
